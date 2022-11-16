@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WizardProfile</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>All Wizards</h1>
+
+
+
+    <ul>
+
+
+      <% wizards.forEach(function(wizard){ %>
+        <li>
+          
+          <%= wizard.name %>
+
+          
+          <% if (wizard.house == "Gryffindor") { %>
+           <span style="color:red"> <%= " house: " + wizard.house %></span>
+          
+          <% } else { %>
+            <span style="color:green"> <%= " house: " + wizard.house %></span>
+           <% } %> 
+        
+        
+        </li>
+
+      <% }); %>
+    </ul>
+
+  </body>
+</html>
