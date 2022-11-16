@@ -42,7 +42,7 @@ It also supports conditions
       <% }); %>
 
 ```
-![a50da9e1e587ccfafa1f4b691fa83e90.png](../_resources/a50da9e1e587ccfafa1f4b691fa83e90.png)
+![a50da9e1e587ccfafa1f4b691fa83e90.png](_resources/a50da9e1e587ccfafa1f4b691fa83e90.png)
 # ExpressJS Database conn
 
 ```javascript
@@ -69,7 +69,7 @@ console.log(finalResult);
 
 
 # Deployment 
-![3312c9d3341d8c42050238336c1032e5.png](../_resources/3312c9d3341d8c42050238336c1032e5.png)
+![3312c9d3341d8c42050238336c1032e5.png](_resources/3312c9d3341d8c42050238336c1032e5.png)
 # Docker Build
 Docker Explained https://www.youtube.com/watch?v=_dfLOzuIg2o 
 You can run your app using `npm start`, `node bin/www` or similar command. We create a complete Docker
