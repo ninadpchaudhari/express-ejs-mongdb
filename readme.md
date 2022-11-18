@@ -13,6 +13,9 @@ Please find this readme for explanations on
 
 
 # ExpressJS Views EJS Templates
+
+Video on that https://www.youtube.com/watch?v=b-qS0P5ewN0 
+
 ![4dc5cfeb0d7a78820f9427b0192ad9e6.png](_resources/4dc5cfeb0d7a78820f9427b0192ad9e6.png)
 ## Pre Requirements 
 - Working Expressjs app generated using the generator. `express --view=ejs <YOUR APP NAME>`
