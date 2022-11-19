@@ -97,6 +97,13 @@ It's a simple text file with instructions required to construct your docker imag
 1. Dockerfile reference : Understanding basic [Dockerfile commands](https://docs.docker.com/build/building/packaging/#dockerfile)
 2. Sample dockerfile for nodejs https://nodejs.org/en/docs/guides/nodejs-docker-webapp/ (p.s. if you look at the dockerfile mentioned there, that is your answer! Just change the last line to  `CMD ["node", "./bin/www" ]`)
 
+```bash
+
+docker build -t assignment .
+
+docker run -p 3000:3000 assignment 
+```
+
 # Docker Compose
 Considering our applications are composed of multiple containers, this tool can define all of these services in a single file. It gives a single command to create, start and stop services. Moreover, an internal network is created when starting a docker compose file. This network is isolated from the network of your machine / server. services in the same docker compose file, can resolve each other's IP inside the internal network. 
 
