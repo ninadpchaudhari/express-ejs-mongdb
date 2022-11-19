@@ -2,6 +2,11 @@
 This repo hosts a sample project that uses ExpressJS, EJS and MongoDB connections. 
 We covered these partials earlier in lectures, this adds more supplimental material. 
 
+# References
+
+- Installing Docker on Ubuntu - EC2 Just follow along with the terminal commands: https://docs.docker.com/engine/install/ubuntu/ 
+- lecture explaning views and mongo : https://www.youtube.com/watch?v=b-qS0P5ewN0 
+- If you need a video that explains this article & the code : https://youtu.be/rVFPNYe3RB0
 
 ## Explanation
 
